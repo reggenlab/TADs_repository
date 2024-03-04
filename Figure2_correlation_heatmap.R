@@ -4,7 +4,7 @@
 #########################################################################################################################################################################
 ###############      FIGURE 2A 2B				##############################################
 
-ccle_matrix=read.table('TADscore-GSVA-unionTADs-CCLE-CTRP_without_white_space_4dec22_random.csv',header=T,sep='\t',row.names=1)
+ccle_matrix=read.table('TADscore-GSVA-unionTADs-CCLE-CTRP_without_white_space_4dec22.csv',header=T,sep='\t',row.names=1)
 ccle_colname_tcgabased=read.table("final_colname_ccle_to_TCGA.txt")
 a=ccle_matrix
 colnames(a)=ccle_colname_tcgabased[,2]
